@@ -1,0 +1,13 @@
+<html>
+    <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+    <form name="myForm" onsubmit="simulate(window.myForm.population.value); return false;" autocomplete="off">
+        <input type="text" value="" name="population" placeholder="Population size" />
+        <button type="submit">Simulate</button>
+        <table id="results" border="1" width="100%">
+            <tr><td width="33%">Boys</td><td width="33%">Girls</td><td>Avg Children</td></tr>
+        </table>
+    </form>
+    </body>
+</html>
